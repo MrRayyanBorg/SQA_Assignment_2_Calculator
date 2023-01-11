@@ -4,8 +4,8 @@ html, body {
 }
 /* general styling for the calculator */
 .calculator {
-    width: 350px;
-    height: 500px;
+    width: 351px;
+    height: 427px;
     margin: auto;
     border-radius: 10px;
     background-color: #c1c1c1;
