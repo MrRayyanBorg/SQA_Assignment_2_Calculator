@@ -8,23 +8,25 @@
 <div class="calculator">
   <input type="text" id="display" disabled>
   <div class="buttons">
-    <button value="7" class="operator">7</button>
-    <button value="8" class="operator">8</button>
-    <button value="9" class="operator">9</button>
-    <button class="operator" value="clear">AC</button>
-    <button value="4" class="operator">4</button>
-    <button value="5" class="operator">5</button>
-    <button value="6" class="operator">6</button>
-    <button value="/" class="operator">&divide;</button>
-    <button value="1" class="operator">1</button>
-    <button value="2" class="operator">2</button>
-    <button value="3" class="operator">3</button>
-    <button value="*" class="operator">&times;</button>
-    <button value="." class="operator">.</button>
-    <button value="0" class="operator">0</button>
-    <button value="-" class="operator">&minus;</button>
-    <button value="+" class="operator">+</button>
-    <button value="=" class="eval">=</button>
+    <button value="1" class="operator" onclick="appendToDisplay(this.value)">1</button>
+    <button value="2" class="operator" onclick="appendToDisplay(this.value)">2</button>
+    <button value="3" class="operator" onclick="appendToDisplay(this.value)">3</button>
+    <button value="+" onclick="performOperation(this.value)">+</button>
+    
+    <button value="4" class="operator" onclick="appendToDisplay(this.value)">4</button>
+    <button value="5" class="operator" onclick="appendToDisplay(this.value)">5</button>
+    <button value="6" class="operator" onclick="appendToDisplay(this.value)">6</button>
+    <button value="-" onclick="performOperation(this.value)">-</button>
+    
+    <button value="7" class="operator" onclick="appendToDisplay(this.value)">7</button>
+    <button value="8" class="operator" onclick="appendToDisplay(this.value)">8</button>
+    <button value="9" class="operator" onclick="appendToDisplay(this.value)">9</button>
+    <button value="*" onclick="performOperation(this.value)">x</button>
+    
+    <button value="clear" onclick="clearDisplay()">AC</button>
+    <button value="0" class="operator" onclick="appendToDisplay(this.value)">0</button>
+    <button value="=" onclick="performOperation(this.value)">=</button>
+    <button value="/" onclick="performOperation(this.value)">/</button>
   </div>
 </div>
     <script type="text/javascript" src="script.js"></script>
