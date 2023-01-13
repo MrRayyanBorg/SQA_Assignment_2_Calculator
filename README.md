@@ -92,7 +92,19 @@ Given that the project is a small one and we only have 3 weeks to deliver it, te
 Sprint Planning and PM Tool
 ---------------------------
 
-(Describe the sprint planning process and the project management tool used)
+##Sprint Planning##
+* In order to deliver the project within the 3 week timeframe, we will be using a modified Agile methodology, specifically Scrum.
+* Our sprints will be 3 days long, and we will be using GitHub Issues to track the tasks that need to be worked on.
+* Each sprint will begin with a planning meeting, where we will go over the goals for the sprint and assign tasks to each team member.
+* We will also set up a daily stand-up meeting where we will discuss progress, any blockers and assign tasks for the day.
+* At the end of each sprint, we will have a retrospective meeting to review the work done, identify any improvements that can be made, and plan for the next sprint.
+
+##PM Tool##
+* We will be using GitHub for project management, specifically GitHub Issues to track our tasks and progress.
+* We will be using the Kanban board view for our GitHub Issues to visualize the workflow and progress.
+* We will also be using GitHub's built-in project management features such as milestones and labels to track the progress and status of tasks.
+* Additionally, we will be using GitHub's code review feature to review and merge code changes.
+* Communication within the team will be done via Slack.
 
 Retrospective and Process Improvements
 --------------------------------------
