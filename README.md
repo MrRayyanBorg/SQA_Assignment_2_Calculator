@@ -73,7 +73,21 @@ Test Plans and Types of Testing
 SQA Strategy v.1
 ----------------
 
-(Record the team's discussion on their software quality assurance strategy)
+In order to ensure the quality and functionality of our Calculator project, we will be implementing the following SQA strategy:
+
+* **Unit Testing:** We will be writing unit tests for all functions and methods in the calculator using Jest. This will ensure that all individual components of the calculator are working as intended.
+
+* **Integration Testing:** We will be conducting integration testing to ensure that all the functions and methods are working together as a cohesive unit. We will be testing all possible inputs and scenarios to ensure that the calculator can handle edge cases and unexpected inputs.
+
+* **Functional Testing:** We will be testing the calculator's functionality to ensure that it can perform all the necessary mathematical operations (addition, subtraction, multiplication, and division).
+
+* **Usability Testing:** We will be testing the calculator's usability by using it ourselves, as well as by observing others using it. This will help us identify any usability issues and improve the overall user experience.
+
+* **Regression Testing:** We will be conducting regression testing to ensure that any updates or changes made to the calculator do not negatively impact any existing functionality.
+
+* **Acceptance Testing:** We will be conducting acceptance testing to ensure that the calculator meets all the requirements and specifications outlined in the project.
+
+Given that the project is a small one and we only have 3 weeks to deliver it, testing will be done by both Rayyan and Jesus.
 
 Sprint Planning and PM Tool
 ---------------------------
