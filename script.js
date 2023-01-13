@@ -102,3 +102,16 @@ function clearDisplay() {
   evaluation = undefined;
   display.value = displayValue;
 }
+
+if (typeof module !== 'undefined') {
+  module.exports = {   
+    appendToDisplay,
+    performOperation,
+    add,
+    subtract,
+    multiply,
+    divide,
+    clearDisplay 
+  };
+}
+

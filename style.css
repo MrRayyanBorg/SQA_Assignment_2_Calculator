@@ -5,7 +5,7 @@ html, body {
 /* general styling for the calculator */
 .calculator {
     width: 351px;
-    height: 425px;
+    height: 500px;
     margin: auto;
     border-radius: 10px 10px 0px 0px;
     background-color: #c1c1c1;
@@ -38,6 +38,7 @@ button {
     color: #2b2b2b;
     border: none;
     cursor: pointer;
+    border: solid #2b2b2b 0.1px;
 }
 
 /* styling for operator buttons ( +, -, *, / ) */
@@ -48,6 +49,7 @@ button {
 
 /* styling for the equal button */
 .eval {
+    width:100%;
     background-color: #A8BED7;
     color: #F7F5EE;
 }

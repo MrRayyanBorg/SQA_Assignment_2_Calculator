@@ -1,0 +1,14 @@
+{
+  "name": "SQA_Assignment_2_Calculator",
+  "version": "1.0.0",
+  "main": "script.js",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "ci": "^2.2.0"
+  }
+}
