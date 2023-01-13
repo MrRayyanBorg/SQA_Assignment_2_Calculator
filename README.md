@@ -118,7 +118,17 @@ To facilitate this process, we have used github to track our progress, assign ta
 Pull Requests and Code Review
 -----------------------------
 
-(Explain the team's strategy for pull requests and code review)
+In order to ensure the quality and maintainability of our codebase, all changes to the codebase must be made through pull requests. Before a pull request is merged, it must be reviewed by at least one other team member. This process helps to catch any issues or errors before they are committed to the main branch, and also promotes team collaboration and knowledge sharing.
+
+The following guidelines should be followed when creating and reviewing pull requests:
+
+* Pull requests must be made to the main branch. This is to ensure that only tested and reviewed code is committed to the main branch.
+* Pull requests should be made early and often. This allows team members to review and provide feedback on changes as they are being made, rather than waiting until the end of a sprint or feature development.
+* All pull requests must be reviewed by at least one other team member. This ensures that at least two sets of eyes have looked over the code before it is merged, and helps to catch any errors or issues that may have been missed by the original developer.
+* Code review should focus on overall code quality, maintainability, and adherence to coding standards. This includes checking for things like proper indentation, comments, and naming conventions, as well as checking for any potential bugs or errors in the code.
+* All feedback should be constructive and actionable. If a team member finds an issue or error in the code, they should provide specific feedback on how to fix it, rather than just pointing out the problem.
+* All feedback should be addressed before the pull request is merged. If a team member finds an issue or error in the code, the original developer should address it and provide an explanation of the changes they made to fix it.
+* All pull requests should be tested thoroughly before being merged. This includes running automated tests, as well as manually testing the code to ensure that it behaves as expected.
 
 UI Testing and Accessibility Audit
 ----------------------------------
