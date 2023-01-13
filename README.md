@@ -109,7 +109,11 @@ Sprint Planning and PM Tool
 Retrospective and Process Improvements
 --------------------------------------
 
-(Discuss any retrospectives conducted and any improvements made to the processes)
+The Retrospective and Process Improvements section of our project will involve regularly reviewing and assessing the progress and effectiveness of our development process. At the end of each sprint, we hold a retrospective meeting where the team will discuss what went well during the sprint, what didn't go well, and identify areas for improvement.
+
+We have used the feedback and insights gained from these retrospectives to make necessary adjustments to our process and workflow in order to optimize our efficiency and effectiveness. Additionally, we will also continuously monitor and analyze metrics such as sprint velocity and code quality to identify any potential issues and make improvements.
+
+To facilitate this process, we have used github to track our progress, assign tasks, and document our retrospectives and process improvements. This will allow us to easily refer back to previous retrospectives and track the progress of our process improvements over time.
 
 Pull Requests and Code Review
 -----------------------------
