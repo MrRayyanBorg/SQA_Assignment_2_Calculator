@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
 <body>
-  Hello world
-  <script src="script.js"></script>
-
- <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+<div class="calculator">
+  <input type="text" id="display" disabled>
+  <div class="buttons">
+    <button value="1" class="button" onclick="appendToDisplay(this.value)">1</button>
+    <button value="2" class="button" onclick="appendToDisplay(this.value)">2</button>
+    <button value="3" class="button" onclick="appendToDisplay(this.value)">3</button>
+    <button value="+" class="operator" onclick="performOperation(this.value)">+</button>
+    
+    <button value="4" class="button" onclick="appendToDisplay(this.value)">4</button>
+    <button value="5" class="button" onclick="appendToDisplay(this.value)">5</button>
+    <button value="6" class="button" onclick="appendToDisplay(this.value)">6</button>
+    <button value="-" class="operator" onclick="performOperation(this.value)">-</button>
+    
+    <button value="7" class="button" onclick="appendToDisplay(this.value)">7</button>
+    <button value="8" class="button" onclick="appendToDisplay(this.value)">8</button>
+    <button value="9" class="button" onclick="appendToDisplay(this.value)">9</button>
+    <button value="*" class="operator" onclick="performOperation(this.value)">x</button>
+    
+    <button value="clear" class="operator" onclick="clearDisplay()">AC</button>
+    <button value="0" class="button" onclick="appendToDisplay(this.value)">0</button>
+    <button value="." class="button" onclick="appendToDisplay(this.value)">.</button>
+    <button value="/" class="operator" onclick="performOperation(this.value)">/</button>
+    <button value="=" class="eval" onclick="performOperation(this.value)">=</button>
+  </div>
+</div>
+    <script type="text/javascript" src="script.js"></script>
 </body>
-
 </html>

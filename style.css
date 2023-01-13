@@ -2,3 +2,60 @@ html, body {
   height: 100%;
   width: 100%;
 }
+/* general styling for the calculator */
+.calculator {
+    width: 351px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #c1c1c1;
+    box-shadow: 0px 0px 20px 0px #c1c1c1;
+}
+
+/* styling for the display */
+#display {
+    width: 99%;
+    height: 100px;
+    background-color: #fff;
+    color: #2b2b2b;
+    text-align: right;
+    padding: 0px;
+    font-size: 2rem;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* styling for the buttons */
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 25%;
+    height: 80px;
+    font-size: 2rem;
+    background-color: #fff;
+    color: #2b2b2b;
+    border: none;
+    cursor: pointer;
+    border: solid #2b2b2b 0.1px;
+}
+
+/* styling for operator buttons ( +, -, *, / ) */
+.operator {
+    background-color: #ffa500;
+    color: #F7F5EE;
+}
+
+/* styling for the equal button */
+.eval {
+    width:100%;
+    background-color: #A8BED7;
+    color: #F7F5EE;
+}
+
+/* hover effect for buttons */
+button:hover {
+    background-color: #FDC18A;
+    color: #F7F5EE;
+}
