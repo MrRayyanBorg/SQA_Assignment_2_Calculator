@@ -114,3 +114,4 @@ if (typeof module !== 'undefined') {
     clearDisplay 
   };
 }
+
