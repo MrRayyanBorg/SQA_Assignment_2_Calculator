@@ -55,7 +55,15 @@ We also use tools like ESLint and Prettier to help enforce these coding standard
 Linter and Settings
 -------------------
 
-(Describe the linter settings used in the project and any other tools used for code quality)
+Our team uses ESLint as our linter to catch and prevent errors in our code. ESLint is a powerful linting tool that helps us to maintain a consistent code style and structure, and to identify potential errors and bugs early in the development process.
+
+The workflow eslint.yml is set up to run ESLint on push events to the main branch, and also on pull request events to the same branch, this ensures that the code is linted before being merged. Additionally, the workflow is set to run on a schedule every Tuesday at 14:28.
+
+We have configured ESLint to use the popular airbnb JavaScript style guide as our base configuration, this provides us with a set of well-established coding conventions and best practices that we can follow. Additionally, we also use a set of custom rules that are specific to our project, to further improve the quality of our code.
+
+To ensure that everyone on our team is following the same coding conventions, we have set up a GitHub action that runs ESLint on all files in the repository, and checks for errors or inconsistencies in the code.
+
+You can check and run the linter on your local machine by running 'npx eslint'. command on the root of the project and fix errors according to the output.
 
 Test Plans and Types of Testing
 -------------------------------
