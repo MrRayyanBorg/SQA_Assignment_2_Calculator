@@ -4,10 +4,10 @@ html, body {
 }
 /* general styling for the calculator */
 .calculator {
-    width: 350px;
-    height: 500px;
+    width: 351px;
+    height: 425px;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     background-color: #c1c1c1;
     box-shadow: 0px 0px 20px 0px #c1c1c1;
 }
@@ -43,17 +43,17 @@ button {
 /* styling for operator buttons ( +, -, *, / ) */
 .operator {
     background-color: #ffa500;
-    color: #fff;
+    color: #F7F5EE;
 }
 
 /* styling for the equal button */
 .eval {
-    background-color: #2b2b2b;
-    color: #fff;
+    background-color: #A8BED7;
+    color: #F7F5EE;
 }
 
 /* hover effect for buttons */
 button:hover {
-    background-color: #ffc107;
-    color: #fff;
+    background-color: #FDC18A;
+    color: #F7F5EE;
 }
