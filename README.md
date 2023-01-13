@@ -41,7 +41,16 @@ We will be using GitHub Issues to manage our work and we will be working in shor
 Coding Standards
 ----------------
 
-(Explain the team's standards for naming variables, classes, etc.)
+Our team follows a set of coding standards to ensure consistency and maintainability of the codebase. These standards include:
+
+* **Naming conventions for variables, functions, and classes:** We use camelCase for variable and function names, and PascalCase for class names.
+* **Indentation:** We use 2 spaces for indentation.
+* **Comments:** We use inline comments to explain the purpose of a block of code or to provide additional information about a particular piece of code.
+* **Git Commit messages:** We follow the convention of "verb + object" (e.g. "Fix bug in login page" or "Add tests for new feature").
+* **File Structure:** We separate the code into different files and folders based on their functionality, this makes it easy to navigate and find the code that we need to work with.
+* **Code Review:** Before merging any pull request, we will have at least one other team member review the code.
+
+We also use tools like ESLint and Prettier to help enforce these coding standards, and we have a clear process in place for addressing and resolving any issues that may arise.
 
 Linter and Settings
 -------------------
