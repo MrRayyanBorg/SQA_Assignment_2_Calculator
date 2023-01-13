@@ -63,7 +63,7 @@ We have configured ESLint to use the popular airbnb JavaScript style guide as ou
 
 To ensure that everyone on our team is following the same coding conventions, we have set up a GitHub action that runs ESLint on all files in the repository, and checks for errors or inconsistencies in the code.
 
-You can check and run the linter on your local machine by running 'npx eslint'. command on the root of the project and fix errors according to the output.
+You can check and run the linter on your local machine by running `npx eslint .` command on the root of the project and fix errors according to the output.
 
 Test Plans and Types of Testing
 -------------------------------
