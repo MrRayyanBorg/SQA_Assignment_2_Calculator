@@ -30,7 +30,7 @@ Our team follows Agile development methodology and we use GitHub Issues for our 
 | Name      | Role |
 | ----------- | ----------- |
 | Rayyan Borg      | Co-Project Manager & Developer       |
-| Jesus Godinho    | Co-Project Manager & Test            |
+| Jesus Godinho    | Co-Project Manager & Tester            |
 
 We adhere to industry standard coding practices and conventions. We use ESLint for linting and Prettier for code formatting. Our team follows the principles of Test-Driven Development (TDD) and we have a comprehensive suite of unit and integration tests. We use GitHub Actions for our Continuous Integration/Continuous Deployment (CI/CD) pipeline.
 
