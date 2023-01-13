@@ -25,7 +25,18 @@ This project is a calculator application that performs basic mathematical operat
 Workflow and Standards
 ----------------------
 
-(Provide an overview of the team's workflow and adherence to different standards)
+Our team follows Agile development methodology and we use GitHub Issues for our project management. We have a limited timeframe of 3 weeks to deliver this project, so we will be working in shorter development cycles, with a focus on delivering functional and tested features in a timely manner. We use GitHub for version control and project management, with GitHub Issues set up to track the progress of tasks and issues. Each team member is assigned specific roles and responsibilities, such as developer, tester, and project manager. We have daily stand-up meetings to discuss progress and any blockers.
+
+| Name      | Role |
+| ----------- | ----------- |
+| Rayyan Borg      | Co-Project Manager & Developer       |
+| Jesus Godinho    | Co-Project Manager & Test            |
+
+We adhere to industry standard coding practices and conventions. We use ESLint for linting and Prettier for code formatting. Our team follows the principles of Test-Driven Development (TDD) and we have a comprehensive suite of unit and integration tests. We use GitHub Actions for our Continuous Integration/Continuous Deployment (CI/CD) pipeline.
+
+We have a well-defined Definition of Done (DoD) and we ensure that all code is thoroughly reviewed before merging into the main branch. We use pull requests for code review and have a checklist in place to ensure all necessary checks are performed before merging. We also have a clear process in place for addressing and resolving conflicts.
+
+We will be using GitHub Issues to manage our work and we will be working in shorter development cycles, with a focus on delivering functional and tested features in a timely manner, to ensure that we meet the deadline.
 
 Coding Standards
 ----------------
