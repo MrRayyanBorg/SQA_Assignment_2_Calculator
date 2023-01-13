@@ -20,7 +20,7 @@ Link to our Calculator: https://mrrayyanborg.github.io/SQA_Assignment_2_Calculat
 Introduction
 ------------
 
-(Add a brief description of the project and its purpose)
+This project is a calculator application that performs basic mathematical operations such as addition, subtraction, multiplication, and division. The application is designed to be user-friendly and easy to use. It is built using a combination of JavaScript, HTML, and CSS. The goal of this project is to provide a simple and efficient tool for performing basic mathematical calculations.
 
 Workflow and Standards
 ----------------------
