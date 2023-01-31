@@ -68,8 +68,6 @@ You can check and run the linter on your local machine by running `npx eslint .`
 Test Plans and Types of Testing
 -------------------------------
 
-(Outline the test plans and types of testing used in the project)
-
 SQA Strategy v.1
 ----------------
 
