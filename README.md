@@ -146,4 +146,8 @@ Regular Contributions and Planning
 Conclusion
 -------------------
 
-(Wrap up the readme with a conclusion)
+In conclusion, the development of the calculator was a complex and challenging project, but the team was able to successfully deliver a high-quality product that met all technical and user requirements. The team used an Agile development methodology, which allowed for regular and incremental deliveries, and relied on a comprehensive CI/CD pipeline and integration tests to ensure the calculator functioned as expected. The team also used regular contributions and planning strategies, such as sprints, backlog management, stand-up meetings, retrospectives, and regular planning, to ensure that the calculator was developed efficiently and effectively.
+
+The calculator underwent extensive testing, including unit tests, integration tests, and UI testing, as well as an accessibility audit, to ensure that it was reliable, accurate, and accessible for all users. The team's efforts paid off, as the calculator was deployed to a production environment.
+
+Overall, the development of the calculator was a successful project, and the team should be proud of the high-quality product they delivered. The combination of careful planning, effective teamwork, and comprehensive testing ensured that the calculator was delivered to a high quality standard.
