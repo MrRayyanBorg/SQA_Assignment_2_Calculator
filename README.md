@@ -169,7 +169,19 @@ In conclusion, the CI/CD pipeline and integration tests were crucial in the deve
 Regular Contributions and Planning
 ----------------------------------
 
-(Outline the team's strategy for regular contributions and planning)
+The team used the following strategy for regular contributions and planning:
+
+Agile Methodology: The team adopted an Agile development methodology, which allowed for regular and incremental deliveries of the calculator. This approach allowed the team to quickly respond to changing requirements and incorporate feedback from users.
+
+Sprints: The team used sprints to break down work into smaller, manageable chunks. Sprints typically lasted 2-3 days, and at the end of each sprint, the team reviewed and demonstrated the work that had been completed.
+
+Backlog Management: The team used a product backlog to prioritize and manage work items. The backlog contained a prioritized list of features, bug fixes, and other tasks that needed to be completed. This helped the team prioritize work and ensure that the most important tasks were completed first.
+
+Retrospectives: After each sprint, the team held a retrospective to reflect on the work that had been completed and identify any areas for improvement. This helped the team continuously improve and evolve their processes over time.
+
+Regular Planning: The team held regular planning sessions to determine the work that would be completed in the upcoming sprints. This helped ensure that the team had a clear understanding of the work that needed to be done and that they had the resources and capacity to complete it.
+
+In conclusion, the team's strategy for regular contributions and planning helped ensure that the calculator was developed efficiently and effectively. The Agile methodology, sprints, backlog management, stand-up meetings, retrospectives, and regular planning all contributed to the success of the project and helped the team deliver a high-quality product for end users.
 
 Conclusion
 -------------------
