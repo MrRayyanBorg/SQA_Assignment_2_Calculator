@@ -146,7 +146,25 @@ In conclusion, the UI testing, accessibility audit, functional testing, and user
 CI/CD Pipeline and Integration Tests
 ------------------------------------
 
-(Provide information on the CI/CD pipeline set up and integration tests)
+A Continuous Integration/Continuous Deployment (CI/CD) pipeline was established to automate the testing and deployment of the calculator. This pipeline was integrated with the source code repository and triggered automatically every time changes were pushed to the codebase.
+
+The CI/CD pipeline consisted of multiple stages, including:
+
+Build: The code was built and compiled to ensure it was free of syntax errors and ready for testing.
+
+Unit Tests: Automated unit tests were run to validate the individual functions and components of the calculator. These tests helped catch any issues early in the development process.
+
+Integration Tests: Integration tests were performed to ensure that the different components of the calculator worked together as expected. This stage was crucial in verifying that the calculator functioned correctly and avoided any issues that might arise from conflicting code.
+
+Deployment: Once the tests were completed successfully, the calculator was deployed to a production environment where it was accessible to end users.
+
+The CI/CD pipeline provided several benefits, such as faster and more frequent releases, improved code quality, and reduced manual effort. It also allowed for quick identification and resolution of any issues that might arise during development.
+
+In addition to the CI/CD pipeline, manual testing was also performed to verify the calculator's functionality and catch any issues that might not have been caught by automated tests. This included functional testing, UI testing, and accessibility testing to ensure that the calculator met all technical and user requirements.
+
+To further improve the testing process, test automation was used to increase test coverage and reduce manual effort. Automated tests were written for repeatable and predictable scenarios, such as basic mathematical operations, to ensure that the calculator functioned as expected in different environments.
+
+In conclusion, the CI/CD pipeline and integration tests were crucial in the development of the calculator, as they helped ensure that the calculator was reliable, accurate, and accessible for all users. The tests and pipeline helped catch any issues early in the development process, reducing the risk of defects and ensuring a high-quality product for end users.
 
 Regular Contributions and Planning
 ----------------------------------
