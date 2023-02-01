@@ -131,7 +131,17 @@ The following guidelines should be followed when creating and reviewing pull req
 UI Testing and Accessibility Audit
 ----------------------------------
 
-(Detail any UI testing and accessibility audit done on the project)
+UI testing for the calculator involved checking the visual layout, buttons, and overall user interface to ensure it was intuitive and user-friendly. The tests were performed manually and with automated tools to check for consistency across different devices and screen sizes.
+
+Accessibility was a key concern during development, and an accessibility audit was performed to ensure that the calculator was usable for individuals with disabilities. This included testing for keyboard accessibility, screen reader compatibility, and sufficient color contrast for users with visual impairments. The code was also reviewed to ensure it met the Web Content Accessibility Guidelines (WCAG) 2.0 standards.
+
+As a result of the tests and audit, any issues were identified and fixed, such as adding alt text for images and providing alternative text for screen readers. The calculator was tested extensively to ensure that it was accessible and usable for all users, regardless of their abilities.
+
+In addition to the UI and accessibility tests, functional testing was also performed to ensure that the calculator worked as expected. This involved testing basic operations such as addition, subtraction, multiplication, and division, as well as more complex calculations. The results were verified against known results to ensure accuracy.
+
+To further improve the user experience, user testing was conducted with a small group of individuals to gather feedback on the calculator’s ease of use and overall design. The feedback was used to make any necessary improvements, such as adjusting the layout for better readability or adding additional features based on user requests.
+
+In conclusion, the UI testing, accessibility audit, functional testing, and user testing were crucial steps in the development of the calculator to ensure that it met both technical and user requirements. The tests and audits helped identify and fix any issues, improve the overall design, and ensure that the calculator was accessible and usable for all users.
 
 CI/CD Pipeline and Integration Tests
 ------------------------------------
